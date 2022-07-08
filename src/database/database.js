@@ -1,3 +1,3 @@
 const mongoose = require('mongoose');
-
-module.exports = mongoose.connect('mongodb://localhost:27017/discordauth', { useNewUrlParser: true});
+const uri = process.env.MONGODB_URI;
+module.exports = mongoose.connect(uri, { useNewUrlParser: true});

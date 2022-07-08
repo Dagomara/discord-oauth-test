@@ -4,7 +4,6 @@ const DiscordUser = require('../models/DiscordUser');
 
  passport.serializeUser((user, done) => {
     console.log("Serializing User");
-    console.log(user);
     done(null, user.id);
  });
  passport.deserializeUser(async (id, done) => {
