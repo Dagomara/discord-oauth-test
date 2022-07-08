@@ -1,0 +1,26 @@
+{
+  "name": "discproj2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/app.js",
+    "start": "node ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "3.2.0",
+    "discproj2": "file:discord-oauth-tester",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "gjs": "^0.1.0",
+    "mongoose": "^6.4.3",
+    "passport": "^0.6.0",
+    "passport-discord": "^0.1.4"
+  }
+}

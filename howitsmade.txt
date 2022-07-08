@@ -1,0 +1,14 @@
+npm init -y
+npm i express
+npm install nodemon -g
+npm install dotenv
+npm i passport passport-discord
+npm i express-session
+npm i mongoose
+sudo apt install mongodb
+sudo service mongodb start
+npm install gjs // maybe not!
+npm i ejs
+npm i connect-mongo
+
+npm run dev
